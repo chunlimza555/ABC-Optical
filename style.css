@@ -1,0 +1,233 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+	/*border: 2px solid red;
+	outline: 2px solid blue;*/
+}
+img, picture, video, canvas, svg {
+    display: block; 
+    vertical-align: middle; 
+    /*shape-margin: 1rem;*/
+    max-width: 100%;
+    height: auto;    
+    font-style: italic;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+	
+}
+
+h1 {
+    font-size: 2.5em;
+    
+	
+}
+
+h2 {
+	font-size: 2em;
+	text-align: center;
+	display: block;
+	background-color: #10608f;
+	color: #FDFEFF;
+	padding: 20px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+	display: inline-block;
+	font-size: 1.5em;
+	margin-top: 20px;
+	margin-inline: 10px;
+	padding: 10px;
+}
+
+
+main {
+	width: 100%;
+	margin: 0 auto;
+	min-height: 110vh;
+	
+	
+	
+}
+
+main img{
+	width: 80%;
+	height: auto;
+	/*margin-left: 100px;*/
+	/*margin-right: 50px;*/
+	margin: 0 auto;
+	padding: 10px;
+	display: inline-block;
+}
+
+header{
+    background-color: #10608f;	
+	display: block;
+	text-align: center;
+	width: 100%;
+	
+	
+}
+
+header h1 {
+	text-align: center;
+    color: #FDFEFF;
+	display: inline-block;
+	margin: auto;
+	vertical-align: top;
+	line-height: 100px;
+
+}
+
+header img {
+	width: 150px;
+	height: auto;
+	border-radius: 50%;
+	background-color: #084B71;
+	margin: 0 auto;
+	
+}	
+
+nav{
+    background-color: #084B71;
+    text-align: center;
+	
+}
+
+/*nav:hover{
+	background-color: #bec5ca;
+	
+}*/
+
+nav a{
+    text-decoration: none;
+    margin: 20px;
+	color: #FDFEFF;
+    display: inline-block;
+    text-align: center;
+    font-size: larger;
+}
+
+section {
+	background-color: #FDFEFF;
+	text-align: center;
+	width: 100%;
+	border: #032E45 2px solid;
+	background-image: url(/image/glasses-5.jpg);
+	font-size: large;
+	/* height: 600px; */
+}
+
+section img{
+	min-width: 250px;
+	/*height: 400px;*/
+	margin: 10px;
+	padding: 10px;
+	/*display: inline-block;*/
+	/*border: 2px black solid;*/
+}
+
+section article img{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	padding: 10px;
+	display: inline-block;
+}
+
+section article figure img{
+	border-radius: 50%;
+	width: 200px;
+	margin: 10px;
+	padding: 10px;
+	display: inline-block;
+	/*margin-right: 85%;*/
+	
+}
+
+section details article{
+	font-family: 'Times New Roman', Times, serif;
+	list-style-type: none;  
+	/*outline: none;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;*/
+	/*text-align: center;*/
+}
+
+section details article p{
+	padding: 20px;
+	color: #FDFEFF;
+	font-size: large;
+	vertical-align: text-top;
+	border-radius: 15px;
+	max-width: 200px;
+	min-height: 150px;
+	margin-bottom: 20px;
+	background-color: #084B71;
+	align-items: center;
+	display: inline-flex;
+	text-align: center;
+	
+
+	
+}
+
+section figure img{
+	border-radius: 50%;
+	width: 200px;
+	height: 300px;
+	margin: 10px;
+	padding: 10px;
+	display: inline-block;
+	/*margin-right: 85%;*/
+}
+
+
+section aside{
+	background-color: #FDFEFF;
+	display: inline-block;
+	margin: 0 auto;
+	/*text-align: left;*/
+}
+
+section aside p{
+	font-family: 'Times New Roman', Times, serif;
+	display: inline-block;
+  	margin: 0 auto;
+	padding: 10px;
+	/*text-align: right;*/
+	align-content: space-between;
+	font-size: large;
+	background-color: #FDFEFF;
+	
+}
+
+footer{
+	background-color: #10608f;
+    text-align: center;
+	color: #FDFEFF;
+	padding: 20px;
+	font-size: 16px;
+}
+
+@media screen and (max-width: 1280px) {
+   
+    header {
+		height: min-content; 
+		
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+      height: min-content; 
+	  
+    }    
+}
